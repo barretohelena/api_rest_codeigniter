@@ -31,3 +31,4 @@ E por fim execute o comando `php spark db:seed DatabaseSeeder` para inserir algu
 A documentação sobre a utilização dos endpoints estão aqui [documentação api_rest_codeigniter](https://documenter.getpostman.com/view/36554032/2sA3drHEdk)
 
 #### Diagrama banco de dados
+![ER_Diagrama](https://github.com/barretohelena/api_rest_codeigniter/assets/143218925/f5d30686-6fe7-4362-992f-d000f2dc4749)
