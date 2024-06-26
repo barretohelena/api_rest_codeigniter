@@ -1,0 +1,31 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname = db
+database.default.database = api
+database.default.username = root
+database.default.password = 8Wr0El1??I6
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+
+#--------------------------------------------------------------------
+# ENCRYPTION
+#--------------------------------------------------------------------
+
+encryption.key = E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855
+
+#--------------------------------------------------------------------
+# JWT
+#--------------------------------------------------------------------
+
+jwt.iss = http://localhost:8000
+jwt.aud = http://localhost:8000
+jwt.exp = 3600
